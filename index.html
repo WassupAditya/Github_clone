@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" data-theme="dark">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Github | Aditya</title>
+  <meta name="title" content="Github-Clone" />
+  <meta name="description" content="Github user Info" />
+
+  <link rel="icon" href="favicon.svg" sizes="any" type="image/svg+xml">
+
+  <script type="module" src="assets/js/app.js"></script>
+  <script src="./assets/js/theme.js"></script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,1,0" />
+
+  <link rel="stylesheet" href="./assets/css/style.css" />
+</head>
+
+<body>
+  <a href="#main" class="skip-to-content">Skip to Content</a>
+
+  <!-- header  -->
+  <header class="header" data-header>
+    <div class="container">
+      <a href="/" class="logo">
+        <span class="text-primary">Git</span>Nation
+      </a>
+      <div class="header-search">
+        <button class="icon-btn search-toggler" aria-controls="searchBox" aria-expanded="false"
+          aria-label="Toggle search" data-search-toggler>
+          <span class="material-symbols-rounded search-icon" aria-hidden="true">search</span>
+          <span class="material-symbols-rounded close-icon" aria-hidden="true">arrow_back</span>
+        </button>
+        <div class="search-box" id="searchBox">
+          <span class="material-symbols-rounded leading-icon" aria-hidden="true">search</span>
+          <input type="search" name="search" aria-label="Search Repositories" id="" class="search-field label-1"
+            placeholder="Search Profiles Here*" data-search-field />
+
+          <button class="search-btn" aria-label="Search submit" data-search-submit>
+            <span class="material-symbols-rounded leadin-icon" aria-hidden="true">search</span>
+            <span class="label-1">Search</span>
+          </button>
+        </div>
+      </div>
+
+      <button class="icon-btn theme-btn" aria-pressed="false" aria-label="Toggle dark and light theme" data-theme-btn>
+        <span class="material-symbols-rounded sun-icon" aria-hidden="true">light_mode</span>
+
+        <span class="material-symbols-rounded moon-icon" aria-hidden="true">dark_mode</span>
+      </button>
+    </div>
+  </header>
+
+  <main class="main" id="main">
+    <div class="container">
+      <section class="profile" data-profile-card>
+
+
+
+      </section>
+
+      <!-- tab section  -->
+
+      <section class="tab-container">
+        <div class="tab-list" aria-label="Tab navigation" role="tablist">
+          <button class="tab-btn" aria-selected="true" role="tab" id="tab-1" tabindex="0" aria-controls="panel-1"
+            data-tab-btn>
+            Repositories
+          </button>
+          <button class="tab-btn" aria-selected="false" role="tab" id="tab-2" tabindex="0" aria-controls="panel-2"
+            data-tab-btn data-forked-tab-btn>
+            Forked
+          </button>
+          <button class="tab-btn" aria-selected="false" role="tab" id="tab-3" tabindex="-1" aria-controls="panel-3"
+            data-tab-btn data-follower-tab-btn>
+            Follower
+          </button>
+          <button class="tab-btn" aria-selected="false" role="tab" id="tab-4" tabindex="-1" aria-controls="panel-4"
+            data-tab-btn data-following-tab-btn>
+            Following
+          </button>
+        </div>
+
+
+        <div class="tab-panel" role="tabpanel" id="panel-1" tabindex="0" aria-labelledby="tab-1" tabindex="0"
+          data-tab-panel data-repo-panel>
+
+
+
+
+
+
+
+        </div>
+
+        <div class="tab-panel" role="tabpanel" id="panel-2" tabindex="0" aria-labelledby="tab-2" tabindex="0"
+          data-tab-panel data-fork-panel hidden>
+
+
+
+        </div>
+        <div class="tab-panel" role="tabpanel" id="panel-3" tabindex="0" aria-labelledby="tab-3" tabindex="0"
+          data-tab-panel data-follower-panel hidden>
+
+          <h2 class="sr-only">Followers</h2>
+
+          <article class="card follower-card">
+            <figure class="avatar-cirlce img-holder">
+              <img src="./assets/images/follower-img.png" width="56" height="56" loading="lazy" alt="johnpapa"
+                class="img-cover">
+            </figure>
+
+            <h3 class=" card-title">johnpapa</h3>
+
+            <button class="icon-btn" aria-label="Go to johnpapa profile">
+              <span class="material-symbols-rounded" aria-hidden="true">link</span>
+            </button>
+
+          </article>
+
+
+
+
+
+        </div>
+
+        <div class="tab-panel" role="tabpanel" id="panel-4" tabindex="0" aria-labelledby="tab-4" tabindex="0"
+          data-tab-panel data-following-panel hidden>
+
+
+
+        </div>
+
+
+      </section>
+
+      <!-- error content  -->
+
+      <section class="error" data-error>
+        <p class="title-1">Oops! :(</p>
+
+
+      </section>
+
+    </div>
+
+
+
+
+
+
+
+
+  </main>
+
+  <!-- footer -->
+
+
+
+  <div class="pagination">
+    <div class="pagination-arrow">
+      <button class="pagination-arrow-button" aria-label="Previous" disabled>&lt; Previous</button>
+    </div>
+
+    <!-- Pagination buttons will be dynamically generated here -->
+
+    <div class="pagination-arrow">
+      <button class="pagination-arrow-button" aria-label="Next">Next &gt;</button>
+    </div>
+  </div>
+
+  <!-- Your existing HTML code for repositories and other elements -->
+
+
+
+
+
+</body>
+
+</html>
