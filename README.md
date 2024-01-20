@@ -19,7 +19,7 @@ Unveil the secrets of any GitHub profile by simply entering their username into 
 
 Experience the Magic:
 🌐 Live Project:
-Ready to witness the magic in action? Embark on your digital odyssey by checking out the live project here: Fyle GitHub Clone
+Ready to witness the magic in action? Embark on your digital odyssey by checking out the live project here: https://fylegithubclone.netlify.app/
 
 Join the Odyssey:
 This isn't just a project; it's an odyssey into the future of web development. Join me on this exhilarating journey as we redefine what's possible. Your destiny awaits at the crossroads of innovation and imagination! 🚀🌟
